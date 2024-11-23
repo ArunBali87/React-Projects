@@ -64,69 +64,90 @@ Detailed information about a selected cryptocurrency, including:
 
  - npm start # or
  - yarn start
-Open the app in your browser:
+  
+4. Open the app in your browser:
 
-arduino
-Copy code
-http://localhost:3000
-Project Structure
-scss
-Copy code
+ - http://localhost:3000
+  
+**Project Structure**
+
 src/
 ├── components/
+
 │   ├── Dashboard.js       // Main dashboard view
+
 │   ├── CoinDetail.js      // Coin detail view
+
 │   └── Chart.js           // Line chart for price history
+
 ├── services/
+
 │   └── api.js             // API calls to CoinGecko
+
 ├── App.js                 // Main app component
+
 ├── index.js               // Entry point
+
 └── styles/                // Stylesheets (if used)
-Environment Variables
+
+**Environment Variables**
+
 To access the CoinGecko API, you might need to configure environment variables. Create a .env file in the root directory:
 
-env
-Copy code
-REACT_APP_COINGECKO_API_URL=https://api.coingecko.com/api/v3
-Usage
-Dashboard:
 
-View a list of cryptocurrencies.
-Search for specific coins.
-Click on a coin to view more details.
-Coin Details:
+ - REACT_APP_COINGECKO_API_URL=https://api.coingecko.com/api/v3
+  
+**Usage**
 
-Check price history over various timeframes.
-View detailed statistics like market cap and trading volume.
-Navigate back to the dashboard with the Back button.
-Scripts
-npm start: Run the development server.
-npm build: Build the app for production.
-npm test: Run tests (if implemented).
-npm lint: Check code for linting issues (if ESLint is configured).
-Known Issues
-Ensure your internet connection is stable for fetching real-time data.
-API rate limits from CoinGecko may result in temporary unavailability.
-Contributing
-Contributions are welcome! Please follow these steps:
+1. Dashboard:
 
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature-name
-Make your changes and commit:
-bash
-Copy code
-git commit -m "Add feature-name"
-Push to the branch:
-bash
-Copy code
-git push origin feature-name
-Open a pull request.
-License
-This project is licensed under the MIT License.
+  - View a list of cryptocurrencies.
+  - Search for specific coins.
+  - Click on a coin to view more details.
+   
+2. Coin Details:
 
-Acknowledgments
-CoinGecko API for providing cryptocurrency data.
-React ecosystem and open-source libraries.
+  - Check price history over various timeframes.
+  - View detailed statistics like market cap and trading volume.
+  - Navigate back to the dashboard with the Back button.
+
+   
+**Scripts**
+
+ - npm start: Run the development server.
+ - npm build: Build the app for production.
+ - npm test: Run tests (if implemented).
+ - npm lint: Check code for linting issues (if ESLint is configured).
+  
+**Known Issues**
+
+ - Ensure your internet connection is stable for fetching real-time data.
+ - API rate limits from CoinGecko may result in temporary unavailability.
+  
+**Contributing**
+
+ - Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+
+  - git checkout -b feature-name
+3. Make your changes and commit:
+
+  - git commit -m "Add feature-name"
+   
+4. Push to the branch:
+
+  - git push origin feature-name
+   
+5. Open a pull request.
+
+   
+**License**
+
+ - This project is licensed under the MIT License.
+
+**Acknowledgments**
+
+  - CoinGecko API for providing cryptocurrency data.
+  - React ecosystem and open-source libraries.
