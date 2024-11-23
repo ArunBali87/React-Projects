@@ -1,0 +1,90 @@
+h1 {
+  font-size: 22px;
+}
+.controls {
+  display: flex;
+  /* width: 100%; */
+  align-self: stretch;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.search-bar {
+  flex: 1 0 0;
+  display: flex;
+}
+.search-bar input {
+  width: 100%;
+  border-radius: 35px;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+.refresh-button {
+  border: none;
+  width: 35px;
+  padding: 6px 12px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.refresh-button:hover {
+  background-color: #ccc;
+}
+.refresh-button img {
+  width: 100%;
+}
+.dashboard .refresh-button {
+  background-color: #ddd;
+}
+.loadmore-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  flex-direction: column;
+  gap: 10px;
+}
+.load-more {
+  border: none;
+  background: linear-gradient(179deg, rgb(99 179 249), rgb(179 219 255));
+  padding: 6px 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.load-more:hover {
+  background: linear-gradient(179deg, rgb(179 219 255), rgb(99 179 249));
+}
+.pagination {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.pagination button {
+  border-radius: 6px;
+  border: 1px solid rgb(153, 203, 247);
+  padding: 8px 16px;
+  background-color: rgb(153, 203, 247);
+  cursor: pointer;
+}
+.pagination button:hover:enabled {
+  background-color: rgb(14, 106, 187);
+  color: #fff;
+  border-color: rgb(14, 106, 187);
+}
+.pagination button:disabled {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  cursor: not-allowed;
+}
+
+.clickable-row:hover {
+  background: #f4f4f4;
+  cursor: pointer;
+}
