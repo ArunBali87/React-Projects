@@ -17,7 +17,7 @@ A web application to view real-time cryptocurrency data, including market trends
  
  Pagination or infinite scrolling for easier navigation.
  
-** Coin Detail View**
+**Coin Detail View**
  
 Detailed information about a selected cryptocurrency, including:
 
